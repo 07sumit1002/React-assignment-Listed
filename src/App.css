@@ -1,0 +1,286 @@
+.signin-page{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 100vh;
+}
+.board{
+  width: 49%;
+  color: #ffffff;
+  background-color: black;
+  text-align: center;
+}
+.brd{
+  margin-top: 50%;
+  font-size: 55px;
+}
+
+.signin-form{
+  padding: 170px;
+  background-color: #ffffff;
+}
+.form{
+  padding: 15px;
+  background-color: #ededed;
+}
+.signin-google, .signin-apple{
+  background-color: #ffffff;
+  outline: none;
+  &:hover{
+    background-color: #a8a8a8;
+  }
+}
+.signin{
+  width: 100%;
+  background-color: black;
+  color: #ffffff;
+  &:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+}
+.signin-logo{
+  width: 20px;
+}
+
+
+
+
+
+.sidebar {
+  margin-top: -30px;
+  width: 15%;
+  height: 158%;
+  background-color: black;
+  color: white;
+  position: absolute;
+}
+
+.sidebar-heading {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sidebar-menu {
+  padding-top: 20px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.menu-icon {
+  margin-right: 10px;
+}
+
+.menu-label {
+  font-size: 16px;
+}
+
+.sidebar-footer {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.footer-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-icon {
+  margin-right: 10px;
+}
+
+.footer-label {
+  font-size: 14px;
+}
+
+
+
+
+
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  height: 60px;
+  width: 83%;
+  position: absolute;
+  margin-left: 15%;
+}
+
+.left-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.right-heading {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.search-bar input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin-left: 5px;
+}
+
+.notification-icon,
+.profile-avatar {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.profile-avatar {
+  font-weight: bold;
+}
+
+.notification-icon:hover,
+.profile-avatar:hover {
+  color: #ff0000;
+}
+
+
+
+.box-tiles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 16%;
+  margin-top: 5%;
+  position: absolute;
+  width: 83%;
+}
+
+.box-tile1, .box-tile2,
+.box-tile3, .box-tile4 {
+  position: relative;
+  width: 20%;
+  height: 100px !important;
+  margin-right: 10px;
+  padding: 40px;
+  border-radius: 20px;
+}
+.box-tile1{
+  background-color: aquamarine;
+}
+.box-tile2{
+  background-color: antiquewhite;
+}
+
+.box-tile3{
+  background-color: rgb(255, 195, 204);
+}
+.box-tile4 {
+  background-color: rgb(141, 167, 255);
+}
+.icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #999999;
+  font-size: 18px;
+}
+
+
+
+.linechart {
+
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(86, 86, 86, 0.1);
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 22%;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.graph{
+  width: 100%;
+}
+
+.dropdown-container, .month-dropdown{
+  cursor: pointer;
+}
+
+
+
+
+.piemain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 59%;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.span1{
+  color: #999999;
+  font-size: 10px;
+  cursor: pointer;
+}
+.span{
+  color: #999999;
+  font-size: 11px;
+}
+.piebody{
+  margin-left: 10%;
+}
+.body1{
+  padding: 10px;
+  border-left: 6PX solid rgb(68, 255, 47);
+}
+.body2{
+  padding: 10px;
+  border-left: 6PX solid rgb(47, 61, 255);
+}
