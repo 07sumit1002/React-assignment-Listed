@@ -1,4 +1,5 @@
 import React from 'react';
+import Sign from './signin';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faColumns, faExchangeAlt, faCalendarAlt, faUser, faCog, faQuestionCircle, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
@@ -11,7 +12,7 @@ const Sidebar = () => {
       <div className="sidebar-menu">
         <div className="menu-item">
           <FontAwesomeIcon icon={faColumns} className="menu-icon" />
-          <span className="menu-label">Dashboard</span>
+          <span className="menu-label"> <a href={Sign}>Dashboard</a></span>
         </div>
         <div className="menu-item">
           <FontAwesomeIcon icon={faExchangeAlt} className="menu-icon" />
